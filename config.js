@@ -28,7 +28,7 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Intan Sayangku",
-  photo: "https://lh3.googleusercontent.com/d/12Y1qaLALI562Tad9CPJ82qFGzFK65Eg7",       // Place your photo in the img/ folder
+  photo: "https://www.image2url.com/r2/default/images/1779473127131-38e3ce85-4a30-4fee-b496-895efc469c72.jpeg",       // Place your photo in the img/ folder
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
