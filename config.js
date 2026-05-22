@@ -38,12 +38,12 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "Selamat Ulang Tahun!! :D",
+      text: "Selamat Ulang Tahun ke-21 Sayang!! :D",
     },
     {
       type: "chatbox",
       message:
-        "Selamat ulang tahun yaa!! Semoga di umur yang baru ini kamu semakin bahagia, sehat selalu, dan semua hal baik selalu menyertaimu!",
+        "Selamat ulang tahun yaa Sayang!! Semoga di umur yang baru ini kamu semakin bahagia, sehat selalu, dan semua hal baik selalu menyertaimu!",
       buttonText: "Kirim",
     },
     {
@@ -59,7 +59,7 @@ const CONFIG = {
     },
     {
       type: "quote",
-      text: "Semakin banyak kamu bersyukur, semakin banyak hal indah yang akan datang di hidupmu.",
+      text: "Semakin banyak kamu bersyukur, semakin banyak hal indah yang akan datang di hidup kamu.",
       author: "Intan & Apip",
     },
     {
@@ -85,7 +85,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Nah, sekarang kasih tau aku ya gimana perasaanmu lihat ini.",
+      text: "Nah, sekarang kasih tau aku ya gimana perasaan kamu lihat ini.",
       replayText: "Atau klik di sini kalau kamu mau lihat dari awal lagi.",
     },
   ],
