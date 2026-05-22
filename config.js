@@ -43,7 +43,7 @@ const CONFIG = {
     {
       type: "chatbox",
       message:
-        "Selamat ulang tahun yaa Sayang!! Semoga di umur yang baru ini kamu semakin bahagia, sehat selalu, dan semua hal baik selalu menyertaimu!",
+        "Selamat ulang tahun yaa Sayang!! Semoga di umur yang baru ini kamu semakin bahagia, sehat selalu, dan semua hal baik selalu menyertai kamu!",
       buttonText: "Kirim",
     },
     {
