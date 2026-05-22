@@ -1,93 +1,66 @@
 /**
  * ✨ EDIT THIS FILE to customize the birthday greeting! ✨
- *
- * This is the ONLY file you need to modify.
- * No need to touch HTML, CSS, or any other JavaScript files.
- *
- * AVAILABLE SECTION TYPES:
- *   "greeting"      → Opening greeting with recipient's name
- *   "announcement"  → Birthday announcement text
- *   "chatbox"       → Chat message with typing animation
- *   "ideas"         → Sequential text reveals, one by one
- *   "quote"         → Styled quote card with optional author
- *   "countdown"     → Animated 3-2-1 countdown
- *   "stars"         → Twinkling stars background
- *   "fireworks"     → Colorful firework sparks burst
- *   "balloons"      → Floating balloon animation
- *   "profile"       → Profile photo with birthday wish
- *   "confetti"      → Confetti burst animation
- *   "closing"       → Closing message with replay button
- *
- * HOW TO USE:
- *   REMOVE a section  → Delete its object from the sections array
- *   DUPLICATE          → Copy-paste any section object
- *   REORDER            → Move the section object up/down in the array
- *   EDIT TEXT          → Change the string values
  */
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Intan Sayangku",
-  photo: "https://www.image2url.com/r2/default/images/1779473127131-38e3ce85-4a30-4fee-b496-895efc469c72.jpeg",       // Place your photo in the img/ folder
-  music: "./music/hbd.mpeg",      // Place your music in the music/ folder
+  photo: "https://www.image2url.com/r2/default/images/1779473127131-38e3ce85-4a30-4fee-b496-895efc469c72.jpeg",
+  music: "./music/hbd.mpeg",
 
   // ── Theme Colors ──────────────────────────────────────────────
-  // A toggle button lets the viewer switch between dark & light mode.
   colors: {
-    primary: "#f472b6",           // Main accent color (rose pink)
-    accent: "#60a5fa",            // Secondary accent color (sky blue)
+    primary: "#f472b6",
+    accent: "#60a5fa",
     dark: {
-      background: "#0f172a",      // Slate 900
-      text: "#f1f5f9",            // Slate 100
+      background: "#0f172a",
+      text: "#f1f5f9",
     },
     light: {
-      background: "#fafaf9",      // Stone 50
-      text: "#1e293b",            // Slate 800
+      background: "#fafaf9",
+      text: "#1e293b",
     },
   },
 
-  // ── Default Color Mode ────────────────────────────────────────
-  // Options: "dark" or "light"
   defaultMode: "dark",
 
   // ── Sections ──────────────────────────────────────────────────
-  // Add, remove, duplicate, or reorder as you wish!
   sections: [
     {
       type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+      title: "Halo sayang,",
+      subtitle: "Ada sesuatu yang spesial buat kamu nih!",
     },
     {
       type: "countdown",
-      from: 3,                    // Countdown from this number
-      goText: "🎉",              // Text shown after countdown ends
+      from: 3,
+      goText: "🎉",
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "Selamat Ulang Tahun!! :D",
     },
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
-      buttonText: "Send",
+        "Selamat ulang tahun yaa!! Semoga di umur yang baru ini kamu semakin bahagia, sehat selalu, dan semua hal baik selalu menyertaimu!",
+      buttonText: "Kirim",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+        "Awalnya aku bingung mau ngasih apa.",
+        "Sempat kepikiran buat ngasih kado biasa.",
+        "Tapi akhirnya aku sadar, aku pengen buat sesuatu yang <strong>spesial</strong>.",
+        "Karena...",
+        "Kamu itu sangat Spesial <span>:)</span>",
       ],
       bigLetters: "SO",
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "Semakin banyak kamu bersyukur, semakin banyak hal indah yang akan datang di hidupmu.",
+      author: "Intan & Apip",
     },
     {
       type: "stars",
@@ -99,8 +72,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Happy Birthday, Cintaku!",
+      wishText: "Terima kasih sudah selalu ada. I love you! ;)",
     },
     {
       type: "fireworks",
@@ -112,8 +85,8 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
-      replayText: "Or click, if you want to watch it again.",
+      text: "Nah, sekarang kasih tau aku ya gimana perasaanmu lihat ini.",
+      replayText: "Atau klik di sini kalau kamu mau lihat dari awal lagi.",
     },
   ],
 };
